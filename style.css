@@ -1,0 +1,110 @@
+#body{
+    background-color: #f4f0f0;
+}
+#frist_sec {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: auto;
+    vertical-align: middle;
+    background-color: #fff;
+}
+#search_bar {
+    display: inline-block;
+    margin-left: 40px;
+    position: relative; /* Relative positioning to allow absolute positioning of the icon */
+}
+#input {
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 35px; /* Add padding to make space for the icon */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    background-color: aliceblue;
+}
+#search_logo {
+    position: absolute;
+    left: 10px; /* Position the icon inside the input */
+    top: 50%;
+    transform: translateY(-50%); /* Center the icon vertically */
+    fill: #888; /* Change icon color */
+    pointer-events: none; /* Prevent the icon from being clickable */
+}
+#user{
+    display: inline-block;
+    margin-left: 50px;
+    height: 20px;
+    padding: 2px;
+    width: 140px;
+}
+#user_name{
+    display: inline;
+    align-items: center;
+    font-size: 16px;
+    vertical-align: middle;
+}
+#cart{
+    display: inline;
+    margin-left: 50px;
+}
+#seller{
+    display: inline;
+    margin-left: 50px;
+}
+#menu{
+    display: inline;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+
+#section2{
+    display: flex;
+    background-color: #fff;
+}
+.div1{
+    display: inline-block;
+}
+.top{
+    display: inline-block;
+    align-items: center;
+    margin-right: 5px;
+}
+.top_names{
+    text-align: center;
+    justify-content: center;
+    font-family:'Lato', sans-serif;
+}
+
+.section4{
+    background-color: #fff;
+    height: 330px;
+    width: 1230px;
+}
+p{
+    font-family:'Lato', sans-serif;
+}
+.mobiles{
+    display: flex;
+    width: 1000px;
+}
+.mobile1{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+.fig1{
+    margin: 10px;
+}
+.mobile_pic{
+    width: 150px;
+    height: 180px;
+}
+.mobile_names{
+    text-align: center;
+}
+.mobile_cost{
+    text-align: center;
+    font-weight: bold;
+}
+.section5{
+    background-color: #fff;
+}
